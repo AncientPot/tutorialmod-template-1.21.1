@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "TutorialMod",
+	"description": "模组描述",
+	"authors": [
+		"作者名称"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/模组网站",
+		"sources": "https://github.com/FabricMC/fabric-example-mod源代码链接"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ancientpot.tutorialmod.TutorialMod"
+		],
+		"fabric-datagen": [
+			"com.ancientpot.tutorialmod.TutorialModDataGenerator"
+		],
+      "client": [
+        "com.ancientpot.tutorialmod.TutorialModClient"
+      ]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
