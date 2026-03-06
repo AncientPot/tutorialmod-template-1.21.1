@@ -1,5 +1,6 @@
 package com.ancientpot.tutorialmod;
 
+import com.ancientpot.tutorialmod.item.Moditems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,7 +19,7 @@ public class TutorialMod implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
+        Moditems.registerModItem();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
