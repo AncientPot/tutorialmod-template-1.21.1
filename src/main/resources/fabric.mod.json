@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/模组网站",
-		"sources": "https://github.com/FabricMC/fabric-example-mod源代码链接"
+		"sources": "https://github.com/AncientPot/tutorialmod-template-1.21.1"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/tutorialmod/icon.png",
