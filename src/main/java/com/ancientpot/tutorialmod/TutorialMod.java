@@ -1,5 +1,7 @@
 package com.ancientpot.tutorialmod;
 
+import com.ancientpot.tutorialmod.block.ModBlocks;
+import com.ancientpot.tutorialmod.item.ModItemGroups;
 import com.ancientpot.tutorialmod.item.Moditems;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,6 +22,8 @@ public class TutorialMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
         Moditems.registerModItem();
+        ModItemGroups.registerModItemGroups();
+        ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

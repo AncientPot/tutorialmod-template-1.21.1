@@ -1,4 +1,12 @@
 {
-  "item.tutorialmod.lintongjun": "林童军",
-  "item.tutorialmod.hajimi": "悲伤哈基米"
+  "item.tutorialmod.tutorial_item": "大炮",
+  "item.tutorialmod.hajimi": "悲伤哈基米",
+  "item.tutorialmod.lintongjun": "社会我军哥",
+  "item.tutorialmod.zhangxin": "这人欠我一百万",
+
+  "itemGroup.tutorial_group":"没一个是人",
+
+  "block.tutorialmod.tutorial_block":"大炮方块",
+  "block.tutorialmod.zhangxin_block":"张鑫方块",
+  "block.tutorialmod.lintongjun_block":"林童军方块"
 }
