@@ -11,9 +11,12 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block TUTORIAL_BLOCK =  register("tutorial_block", new Block(AbstractBlock.Settings.create().strength(3.0f,3.0f)));
-    public static final Block ZHANGXIN_BLOCK =  register("zhangxin_block", new Block(AbstractBlock.Settings.create().strength(4.5f,6.0f)));
-    public static final Block LINTONGJUN_BLOCK =  register("lintongjun_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
+    public static final Block TUTORIAL_BLOCK =  register("tutorial_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(0.2f,5.0f)));
+    public static final Block ZHANGXIN_BLOCK =  register("zhangxin_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(0.2f,5.0f)));
+    public static final Block LANXI_BLOCK =  register("lanxi_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(0.2f,5.0f)));
+    public static final Block LINTONGJUN_BLOCK =  register("lintongjun_block", new Block(AbstractBlock.Settings.create().strength(0.2f,5.0f)));
+    public static final Block XUANGE_BLOCK =  register("xuange_block", new Block(AbstractBlock.Settings.create().strength(0.2f,5.0f)));
+
 
     public static  void registerBlockItems(String id, Block block) {
         Item item = Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, id), new BlockItem(block, new Item.Settings()));

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:tutorial_block"
+          "name": "tutorialmod:xuange_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "tutorialmod:blocks/tutorial_block"
+  "random_sequence": "tutorialmod:blocks/xuange_block"
 }

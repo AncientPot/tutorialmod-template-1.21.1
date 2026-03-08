@@ -6,12 +6,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class Moditems {
+public class ModItems {
 // 物品实例定义:在这里声明并初始化具体的物品对象
     public static final Item TUTORIAL_ITEM = registerItems("tutorial_item",new Item(new Item.Settings()));
-    public static final Item LINTONGJUN = registerItems("lintongjun",new Item(new Item.Settings()));
-    public static final Item HAJIMI = registerItems("hajimi",new Item(new Item.Settings()));
     public static final Item ZHANGXIN = registerItems("zhangxin",new Item(new Item.Settings()));
+    public static final Item LANXI = registerItems("lanxi",new Item(new Item.Settings()));
+    public static final Item LINTONGJUN = registerItems("lintongjun",new Item(new Item.Settings()));
+    public static final Item XUANGE = registerItems("xuange",new Item(new Item.Settings()));
 // 物品注册辅助方法:这是一个私有静态方法，用于简化向注册表添加物品的过程
     private static Item registerItems(String id,Item item){
 //      return Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), Identifier.of(TutorialMod.MOD_ID,id)), item);

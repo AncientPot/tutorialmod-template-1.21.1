@@ -1,12 +1,15 @@
 {
   "item.tutorialmod.tutorial_item": "Custom Mod Item",
-  "item.tutorialmod.hajimi": "HaJimi",
-  "item.tutorialmod.lintongjun": "LinTongjun",
   "item.tutorialmod.zhangxin": "ZhangXin",
+  "item.tutorialmod.lanxi": "LanXi",
+  "item.tutorialmod.lintongjun": "LinTongjun",
+  "item.tutorialmod.xuange": "XuanGe",
 
   "itemGroup.tutorial_group":"Custom Mod Inventory",
 
   "block.tutorialmod.tutorial_block":"Custom Mod Block",
   "block.tutorialmod.zhangxin_block":"ZhangXin Block",
-  "block.tutorialmod.lintongjun_block":"LinTongjun Block"
+  "block.tutorialmod.lanxi_block":"LanXi Block",
+  "block.tutorialmod.lintongjun_block":"LinTongjun Block",
+  "block.tutorialmod.xuange_block":"XuanGe Block"
 }

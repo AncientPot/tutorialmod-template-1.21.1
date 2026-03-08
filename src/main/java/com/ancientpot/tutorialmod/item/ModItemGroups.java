@@ -4,7 +4,6 @@ import com.ancientpot.tutorialmod.TutorialMod;
 import com.ancientpot.tutorialmod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -29,19 +28,19 @@ public class ModItemGroups {
 //    }
     public static final ItemGroup TUTORIAL_GROUP = Registry.register(Registries.ITEM_GROUP,Identifier.of(TutorialMod.MOD_ID,"tutorial_group"),
         ItemGroup.create(null,-1).displayName(Text.translatable("itemGroup.tutorial_group"))
-                .icon(() -> new ItemStack(Moditems.TUTORIAL_ITEM))
+                .icon(() -> new ItemStack(ModItems.TUTORIAL_ITEM))
                 .entries((displayContext, entries) -> {
                     // 向自定义物品栏中加入物品
-                    entries.add(Moditems.TUTORIAL_ITEM);
-                    entries.add(Moditems.HAJIMI);
-                    entries.add(Moditems.ZHANGXIN);
-                    entries.add(Moditems.LINTONGJUN);
-
-                    entries.add(Items.DIAMOND);
-
+                    entries.add(ModItems.TUTORIAL_ITEM);
+                    entries.add(ModItems.ZHANGXIN);
+                    entries.add(ModItems.LANXI);
+                    entries.add(ModItems.LINTONGJUN);
+                    entries.add(ModItems.XUANGE);
                     entries.add(ModBlocks.TUTORIAL_BLOCK);
-                    entries.add(ModBlocks.LINTONGJUN_BLOCK);
                     entries.add(ModBlocks.ZHANGXIN_BLOCK);
+                    entries.add(ModBlocks.LANXI_BLOCK);
+                    entries.add(ModBlocks.LINTONGJUN_BLOCK);
+                    entries.add(ModBlocks.XUANGE_BLOCK);
                 }).build());
     public static void registerModItemGroups(){
         TutorialMod.LOGGER.info("注册物品组初始化完成");

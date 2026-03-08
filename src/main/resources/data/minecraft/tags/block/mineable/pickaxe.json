@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:tutorial_block",
+    "tutorialmod:zhangxin_block",
+    "tutorialmod:lanxi_block"
+  ]
+}
